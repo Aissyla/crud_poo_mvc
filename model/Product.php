@@ -2,11 +2,13 @@
 include('Connexion.php');
 class Product
 {
+    //protected w/ extend
+
     //attribut de la classe
-    protected $idProduct;
-    protected $nameProduct;
-    protected $priceProduct;
-    protected $quantityProduct;
+    private $idProduct;
+    private $nameProduct;
+    private $priceProduct;
+    private $quantityProduct;
 
     /*function __construct($idProduct,$nameProduct,$priceProduct,$quantityProduct){
         $this->idProduct = $idProduct;

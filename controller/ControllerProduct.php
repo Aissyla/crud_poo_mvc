@@ -5,7 +5,7 @@ $product = new Product();
 
 if (isset($_POST['create'])) { //C
     if (isset($_POST['produit']) && isset($_POST['prix']) && isset($_POST['nombre'])) {
-        $nameProduct = $_POST['nombre'];
+        $nameProduct = $_POST['produit'];
         $priceProduct = $_POST['prix'];
         $quantityProduct = $_POST['nombre'];
         $product->setnameProduct($nameProduct);
