@@ -1,11 +1,12 @@
 <?php
 include("model/Product.php");
 
-$Product = new Product();
-$Product->setidProduct("1");
-$Product->setnameProduct("Livre");
-$Product->setpriceProduct("10,50€");
-$Product->setquantityProduct("5");
+$product = new Product();
+$product->setidProduct("1");
+$product->setnameProduct("Livre");
+$product->setpriceProduct("10,50€");
+$product->setquantityProduct("5");
+
 echo "<pre>";
-var_dump($Product);
+var_dump($product);
 echo "</pre>";
